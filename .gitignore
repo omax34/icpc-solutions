@@ -1,0 +1,18 @@
+# Compilados C++
+*.o
+*.out
+*.exe
+*.dll
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.swp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.d
