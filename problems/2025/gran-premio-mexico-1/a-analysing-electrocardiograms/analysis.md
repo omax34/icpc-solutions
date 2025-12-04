@@ -1,6 +1,6 @@
 # Análisis
 
-## Observación Clave
+## Observación
 Para que P sea "sana", debe estar formada por repeticiones exactas de S. Esto implica dos condiciones:
 1. La longitud de P debe ser divisible por la de S (P % S == 0).
 2. El carácter en la posición i de P debe coincidir con el carácter correspondiente en el patrón S.
