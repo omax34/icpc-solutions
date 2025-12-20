@@ -49,9 +49,19 @@ public class Main {
         out.close();
     }
 
-    // Aquí el codigo
     public static void solve(FastReader sc, PrintWriter out) {
-        // Ejemplo: 
-        // int n = sc.nextInt();
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        boolean noExist = true;
+        
+        for(int i=0; i<n; i++){
+            int a = sc.nextInt();
+            if(a>=m){
+                out.println(i+1);
+                noExist = false;
+                break;
+            }
+        }
+        if(noExist) out.println("-1");
     }
 }
